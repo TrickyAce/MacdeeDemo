@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Macdee Ready-to-Wear - Premium Nigerian Fashion</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for a more premium feel -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <img src="/images/macdee-logo.png" alt="Macdee Ready-to-Wear Logo" class="logo-img">
+                Macdee Styles
+            </a>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#why-choose-us">Why Choose Us</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-toggle" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section fade-in">
+            <div class="hero-content">
+                <h1 class="hero-tagline">Step Into Elegance</h1>
+                <button class="whatsapp-button cta-button" onclick="window.open('https://wa.me/2347069523755?text=Hello%20Macdee%20Ready-to-Wear,%20I%27d%20like%20to%20make%20an%20order.', '_blank')">Order Now on WhatsApp</button>
+            </div>
+            <img src="/images/macdee-hero.png" alt="Elegant Nigerian fashion model in native wear" class="hero-image">
+        </section>
+
+        <section id="gallery" class="gallery-section fade-in">
+            <h2 class="section-title">Our Collections</h2>
+            <div class="category-filter">
+                <button class="filter-button active" data-category="all">All</button>
+                <button class="filter-button" data-category="bridal">Bridal</button>
+                <button class="filter-button" data-category="aso-ebi">Aso Ebi</button>
+                <button class="filter-button" data-category="casual">Casual</button>
+            </div>
+            <div class="product-grid">
+                <!-- Products will be injected here by JavaScript -->
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section fade-in">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p class="quote">“The dress fit like a dream. Got so many compliments! Macdee Ready-to-Wear truly delivers luxury.”</p>
+                    <p class="author">- Aisha K.</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">“Absolutely stunning Aso Ebi! The fabric quality and craftsmanship are unmatched. Highly recommend!”</p>
+                    <p class="author">- Funke O.</p>
+                </div>
+                <div class="testimonial-card">
+                    <p class="quote">“My bridal outfit was everything I dreamed of and more. Thank you for making my special day perfect!”</p>
+                    <p class="author">- Chioma N.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-choose-us" class="why-choose-us-section fade-in">
+            <h2 class="section-title">Why Choose Macdee Ready-to-Wear?</h2>
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-ruler"><path d="M21.3 15.3a2.4 2.4 0 0 1 0 3.4l-2.6 2.6a2.4 2.4 0 0 1-3.4 0L2.7 9.3a2.41 2.41 0 0 1 0-3.4l2.6-2.6a2.41 2.41 0 0 1 3.4 0Z"/><path d="m7 21 6-6"/><path d="m3 17 6-6"/><path d="m11 2.7 6 6"/></svg>
+                    </div>
+                    <h3 class="feature-title">Custom Fit</h3>
+                    <p class="feature-description">Tailored to perfection for your unique silhouette.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M10 18H6"/><path d="M17 18h.01"/><path d="M21 18h.01"/><path d="M21 15V6a2 2 0 0 0-2-2H9a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-4h-7"/></svg>
+                    </div>
+                    <h3 class="feature-title">Fast Delivery</h3>
+                    <p class="feature-description">Receive your exquisite pieces promptly.</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-gem"><path d="M6 3h12l4 6-10 13L2 9Z"/><path d="M12 22 4 9h16Z"/><path d="M2 9h20"/><path d="M12 22V9"/></svg>
+                    </div>
+                    <h3 class="feature-title">Luxury Fabrics</h3>
+                    <p class="feature-description">Crafted from the finest, high-quality materials.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="faq-section fade-in">
+            <h2 class="section-title">Frequently Asked Questions</h2>
+            <div class="faq-container">
+                <details class="faq-item">
+                    <summary class="faq-question">Do you ship outside Lagos?</summary>
+                    <p class="faq-answer">Yes, we offer nationwide shipping across Nigeria and select international destinations. Shipping fees apply.</p>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">Can I customize the style?</summary>
+                    <p class="faq-answer">For certain designs, customization options are available. Please contact us on WhatsApp to discuss your specific requirements.</p>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">What is your return policy?</summary>
+                    <p class="faq-answer">Due to the bespoke nature of our products, all sales are final. However, we ensure quality and fit before dispatch.</p>
+                </details>
+                <details class="faq-item">
+                    <summary class="faq-question">How long does an order take?</summary>
+                    <p class="faq-answer">Production and delivery times vary depending on the complexity of the design and your location. Typically, orders are delivered within 2-4 weeks.</p>
+                </details>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section fade-in">
+            <h2 class="section-title">Connect With Us</h2>
+            <div class="contact-info">
+                <a href="https://www.instagram.com/macdee_ready_to_wear/" target="_blank" class="contact-button instagram-button cta-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-instagram"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.5" y1="6.5" y2="6.5"/></svg>
+                    Follow us on Instagram
+                </a>
+                <a href="tel:+234 706 952 3755" class="contact-detail contact-button cta-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.63A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                    Call Our Phone
+                </a>
+                <a href="https://wa.me/2347069523755?text=Hello%20Macdee%20Ready-to-Wear,%20I%27d%20like%20to%20make%20an%20order." target="_blank" class="contact-button whatsapp-chat-button cta-button">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle-more"><path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/><path d="M8 12h.01"/><path d="M12 12h.01"/><path d="M16 12h.01"/></svg>
+                    Chat on WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Macdee Ready-to-Wear Demo</p>
+    </footer>
+
+    <button id="backToTopBtn" class="back-to-top-btn" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-up"><path d="m5 12 7-7 7 7"/><path d="M12 19V5"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
