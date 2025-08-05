@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
   // --- Product Data ---
   const products = [
-    { id: "p1", name: "Green Lace Attire", price: 150000.0, image: "/images/product5.png", category: "aso-ebi" },
-    { id: "p2", name: "Modern Short Gown", price: 100000.0, image: "/images/product8.png", category: "bridal" },
-    { id: "p3", name: "Elegant Native Gown", price: 220000.0, image: "/images/product1.png", category: "casual" },
-    { id: "p4", name: "Comfy Armless Dress", price: 38000.0, image: "/images/product4.png", category: "aso-ebi" },
-    { id: "p5", name: "Shiny Black Dress", price: 92000.0, image: "/images/product3.png", category: "bridal" },
-    { id: "p6", name: "Modern Styled Gown", price: 57000.0, image: "/images/product6.png", category: "casual" },
-    { id: "p7", name: "Stylish Long Gown", price: 45000.0, image: "/images/product7.png", category: "aso-ebi" },
-    { id: "p8", name: "White Uwana Dress", price: 30000.0, image: "/images/product2.png", category: "bridal" },
+    { id: "p1", name: "Green Lace Attire", price: 150000.0, image: "/images/product5.webp", category: "aso-ebi" },
+    { id: "p2", name: "Modern Short Gown", price: 100000.0, image: "/images/product8.webp", category: "bridal" },
+    { id: "p3", name: "Elegant Native Gown", price: 220000.0, image: "/images/product1.webp", category: "casual" },
+    { id: "p4", name: "Comfy Armless Dress", price: 38000.0, image: "/images/product4.webp", category: "aso-ebi" },
+    { id: "p5", name: "Shiny Black Dress", price: 92000.0, image: "/images/product3.webp", category: "bridal" },
+    { id: "p6", name: "Modern Styled Gown", price: 57000.0, image: "/images/product6.webp", category: "casual" },
+    { id: "p7", name: "Stylish Long Gown", price: 45000.0, image: "/images/product7.webp", category: "aso-ebi" },
+    { id: "p8", name: "White Uwana Dress", price: 30000.0, image: "/images/product2.webp", category: "bridal" },
   ]
 
   const productGrid = document.querySelector(".product-grid")
